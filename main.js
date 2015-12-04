@@ -83,7 +83,7 @@ var mainPage = {//local page class
 		}
 	},
 	showTab: function(tabid, onComplete) {
-		var imgPath = 'pub_data/k45_gala/';
+		var imgPath = 'image/';
 		var $tab = $('#' + tabid);
 		var $tabicon = $('img', $tab);
 		var $tabcnt = $('#' + $tab.attr('rel'));
@@ -99,6 +99,6 @@ var mainPage = {//local page class
 //------------------------
 
 $(document).ready(function() {
-	//init 45 Page
+	//init main page
 	mainPage.init();
 });
