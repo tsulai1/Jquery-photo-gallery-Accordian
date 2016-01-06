@@ -1,0 +1,35 @@
+/*-------------------------------------------------*/
+/* ========== page styles =============*/
+/*-------------------------------------------------*/
+
+/*Global*/
+.clr_bth{clear: both; height: 0px; font-size: 0px; background: none;}
+.red_dotted{background: url('../image/dotted_red.png') repeat-x; height: 1px; width: 880px; margin: 5px 0px;}
+
+/*Overview*/
+
+a{cursor: pointer;}
+
+h1 { color: #c2212f; font-size: 21px; font-weight: normal; line-height: 25px; margin: 0; padding: 0; }
+.red_line{clear: both; float: right; width: 540px; height: 1px; background-color: #d90002;}
+
+.tiny { font-size: 10px; color: gray; }
+.ovw_lft{float: left; margin-right:37px;}
+.ovw_rgt{width: 540px; float: left;}
+.vid{text-align: center; margin-bottom: 20px;}
+
+
+.gallery{margin: 15px 0px 0px;}
+.gallery .type{margin-top: 10px;}
+.gallery .type, .gallery .type a{color: #8f8f8f; text-decoration: none;}
+.gallery .type a:hover{text-decoration: underline;}
+.gallery .type a.current{color: #c2212f;}
+
+.gallery .photos{display: none;}
+
+.hide{display: none;}
+.show{display: block;}
+
+.act_collapse{cursor: pointer; margin: 0px 0px 20px;}
+.act_collapse img{cursor: pointer;}
+.act_cnt{margin: 0px 0px 20px;}
